@@ -1,0 +1,6 @@
+#
+#Mon Nov 01 23:16:08 ICT 2021
+vn.com.acbs.digital.migration.toolkit.runtime.ToolkitRuntimeConfig.historyTable=Migration table
+vn.com.acbs.digital.migration.toolkit.runtime.ToolkitRuntimeConfig.cleanAtStart={@code true} to execute migration clean command automatically when the application starts, {@code false} otherwise.
+vn.com.acbs.digital.migration.toolkit.runtime.ToolkitRuntimeConfig.migrateAtStart={@code true} to execute migration automatically when the application starts, {@code false} otherwise.
+vn.com.acbs.digital.migration.toolkit.runtime.ToolkitRuntimeConfig.testData={@code true} to execute scripts after migration, {@code false} otherwise.\nThis should be use only in development.

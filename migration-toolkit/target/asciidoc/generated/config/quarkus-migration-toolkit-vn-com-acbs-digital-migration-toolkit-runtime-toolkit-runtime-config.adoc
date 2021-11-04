@@ -1,0 +1,46 @@
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference, cols="80,.^10,.^10"]
+|===
+
+h|[[quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-runtime-config_configuration]]link:#quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-runtime-config_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a| [[quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-runtime-config_quarkus.migration-toolkit.migrate-at-start]]`link:#quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-runtime-config_quarkus.migration-toolkit.migrate-at-start[quarkus.migration-toolkit.migrate-at-start]`
+
+[.description]
+--
+`true` to execute migration automatically when the application starts, `false` otherwise.
+--|boolean 
+|`false`
+
+
+a| [[quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-runtime-config_quarkus.migration-toolkit.clean-at-start]]`link:#quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-runtime-config_quarkus.migration-toolkit.clean-at-start[quarkus.migration-toolkit.clean-at-start]`
+
+[.description]
+--
+`true` to execute migration clean command automatically when the application starts, `false` otherwise.
+--|boolean 
+|`false`
+
+
+a| [[quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-runtime-config_quarkus.migration-toolkit.test-data]]`link:#quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-runtime-config_quarkus.migration-toolkit.test-data[quarkus.migration-toolkit.test-data]`
+
+[.description]
+--
+`true` to execute scripts after migration, `false` otherwise. This should be use only in development.
+--|boolean 
+|`false`
+
+
+a| [[quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-runtime-config_quarkus.migration-toolkit.history-table]]`link:#quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-runtime-config_quarkus.migration-toolkit.history-table[quarkus.migration-toolkit.history-table]`
+
+[.description]
+--
+Migration table
+--|string 
+|`toolkit_migration`
+
+|===

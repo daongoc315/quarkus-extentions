@@ -1,0 +1,64 @@
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference.searchable, cols="80,.^10,.^10"]
+|===
+
+h|[[quarkus-migration-toolkit_configuration]]link:#quarkus-migration-toolkit_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a|icon:lock[title=Fixed at build time] [[quarkus-migration-toolkit_quarkus.migration-toolkit.location]]`link:#quarkus-migration-toolkit_quarkus.migration-toolkit.location[quarkus.migration-toolkit.location]`
+
+[.description]
+--
+The location of SQL scripts. All included sql log files in this file are scanned and add to the projects.
+--|string 
+|`db/migration/`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-migration-toolkit_quarkus.migration-toolkit.test-data-scripts]]`link:#quarkus-migration-toolkit_quarkus.migration-toolkit.test-data-scripts[quarkus.migration-toolkit.test-data-scripts]`
+
+[.description]
+--
+List of SQL scripts which will be run as test data after migration.
+--|list of string 
+|`-no-value-`
+
+
+a| [[quarkus-migration-toolkit_quarkus.migration-toolkit.migrate-at-start]]`link:#quarkus-migration-toolkit_quarkus.migration-toolkit.migrate-at-start[quarkus.migration-toolkit.migrate-at-start]`
+
+[.description]
+--
+`true` to execute migration automatically when the application starts, `false` otherwise.
+--|boolean 
+|`false`
+
+
+a| [[quarkus-migration-toolkit_quarkus.migration-toolkit.clean-at-start]]`link:#quarkus-migration-toolkit_quarkus.migration-toolkit.clean-at-start[quarkus.migration-toolkit.clean-at-start]`
+
+[.description]
+--
+`true` to execute migration clean command automatically when the application starts, `false` otherwise.
+--|boolean 
+|`false`
+
+
+a| [[quarkus-migration-toolkit_quarkus.migration-toolkit.test-data]]`link:#quarkus-migration-toolkit_quarkus.migration-toolkit.test-data[quarkus.migration-toolkit.test-data]`
+
+[.description]
+--
+`true` to execute scripts after migration, `false` otherwise. This should be use only in development.
+--|boolean 
+|`false`
+
+
+a| [[quarkus-migration-toolkit_quarkus.migration-toolkit.history-table]]`link:#quarkus-migration-toolkit_quarkus.migration-toolkit.history-table[quarkus.migration-toolkit.history-table]`
+
+[.description]
+--
+Migration table
+--|string 
+|`toolkit_migration`
+
+|===

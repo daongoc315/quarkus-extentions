@@ -1,0 +1,28 @@
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference, cols="80,.^10,.^10"]
+|===
+
+h|[[quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-build-time-config_configuration]]link:#quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-build-time-config_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a|icon:lock[title=Fixed at build time] [[quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-build-time-config_quarkus.migration-toolkit.location]]`link:#quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-build-time-config_quarkus.migration-toolkit.location[quarkus.migration-toolkit.location]`
+
+[.description]
+--
+The location of SQL scripts. All included sql log files in this file are scanned and add to the projects.
+--|string 
+|`db/migration/`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-build-time-config_quarkus.migration-toolkit.test-data-scripts]]`link:#quarkus-migration-toolkit-vn-com-acbs-digital-migration-toolkit-runtime-toolkit-build-time-config_quarkus.migration-toolkit.test-data-scripts[quarkus.migration-toolkit.test-data-scripts]`
+
+[.description]
+--
+List of SQL scripts which will be run as test data after migration.
+--|list of string 
+|`-no-value-`
+
+|===

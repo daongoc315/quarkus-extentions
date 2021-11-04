@@ -1,0 +1,4 @@
+#
+#Mon Nov 01 23:16:08 ICT 2021
+vn.com.acbs.digital.migration.toolkit.runtime.ToolkitBuildTimeConfig.testDataScripts=List of SQL scripts which will be run as test data after migration.
+vn.com.acbs.digital.migration.toolkit.runtime.ToolkitBuildTimeConfig.location=The location of SQL scripts. All included sql log files in this file are scanned and add to the projects.

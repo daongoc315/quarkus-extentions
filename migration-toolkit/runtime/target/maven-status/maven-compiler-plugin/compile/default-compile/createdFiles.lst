@@ -1,0 +1,15 @@
+vn/com/acbs/digital/migration/toolkit/database/Database.class
+vn/com/acbs/digital/migration/toolkit/models/VersionedMigration.class
+vn/com/acbs/digital/migration/toolkit/models/Version.class
+vn/com/acbs/digital/migration/toolkit/runtime/ToolkitRecorder.class
+vn/com/acbs/digital/migration/toolkit/models/ResourceLoader.class
+vn/com/acbs/digital/migration/toolkit/runtime/ToolkitBuildTimeConfig.class
+vn/com/acbs/digital/migration/toolkit/ToolkitConfig$ToolkitConfigBuilder.class
+vn/com/acbs/digital/migration/toolkit/Toolkit.class
+vn/com/acbs/digital/migration/toolkit/runtime/ToolkitRuntimeConfig.class
+vn/com/acbs/digital/migration/toolkit/models/Migration.class
+vn/com/acbs/digital/migration/toolkit/models/Resource.class
+vn/com/acbs/digital/migration/toolkit/ToolkitConfig.class
+META-INF/quarkus-javadoc.properties
+META-INF/quarkus-config-roots.list
+vn/com/acbs/digital/migration/toolkit/database/PostgresDatabase.class
